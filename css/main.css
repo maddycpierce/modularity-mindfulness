@@ -1,19 +1,41 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 html {
-  box-sizing: border-box;
-
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
+  font-family: "Noto Sans", sans-serif;
 
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
+nav ul li a {
+  color: #b64c6e;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.btn {
+  text-decoration: none;
+  color: #b64c6e;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border-width: 2px;
+  border-color: #d89fb0;
+}
+
+nav ul li a:hover {
+  color: #860927;
+}
+
+i {
+  font-family: "Noto Sans Japanese", sans-serif;
+}
+
+@media only screen and (min-width: 25em) {
+
+  header {
+    text-align: center;
+  }
+
 }
