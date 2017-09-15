@@ -8,9 +8,17 @@ nav ul li a {
   text-decoration: none;
 }
 
+nav ul li a:hover {
+  color: #860927;
+}
+
 li {
-  list-style-type: none;
   display: inline-block;
+  border-bottom: solid 2px #d89fb0;
+}
+
+hr {
+  border-color: #e2e2e2;
 }
 
 .btn {
@@ -22,20 +30,20 @@ li {
   background-color: transparent;
   border-width: 2px;
   border-color: #d89fb0;
-}
-
-nav ul li a:hover {
-  color: #860927;
+  color: #b64c6e;
 }
 
 i {
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
-@media only screen and (min-width: 25em) {
+footer {
+  color: #e2e2e2;
+}
 
-  header {
-    text-align: center;
+@media only screen and (min-width: 60em) {
+
+  .btn-ghost {
   }
 
 }
